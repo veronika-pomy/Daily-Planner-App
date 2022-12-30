@@ -97,3 +97,11 @@ You are required to submit the following for review:
 
 - - -
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+
+
+https://stackoverflow.com/questions/2170923/whats-the-easiest-way-to-call-a-function-every-5-seconds-in-jquery
+
+https://stackoverflow.com/questions/17886578/refresh-part-of-page-div
+
+https://api.jquery.com/load/
+
