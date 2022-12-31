@@ -1,102 +1,72 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Daily Planner App
 
-## Your Task
+## Project Scope
 
-Create a simple calendar application that allows a user to save events for each hour of the day by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+This daily planner application helps users to organize their workday by entering and saving daily tasks and tracking progress throughout the day.
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+---
 
-## User Story
+## Functionality 
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+The following criteria include app functions: 
 
-## Acceptance Criteria
+- The calendar allows users to save tasks for each hour of the day
+- The app includes standard working hours from 9 am to 5 pm
+- The app utilizes the Day.js library to update date and time features dynamically
+- The calendar displays the current day (weekday and date) at the top of the page
+- The time blocks are organized into 1-hour segments 
+- Each time block is color-coded to indicate whether it is in the past, present, or future 
+  - Gray is for the past, red is for the present, green is for the future
+- When users click on time blocks, they can enter tasks and save them 
+- The app utilizes local storage to save tasks 
+- When the page is refreshed, the saved tasks continue to appear on the calendar
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+<p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
-The following animation demonstrates the application functionality:
+---
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+## Demo 
 
-## Grading Requirements
+This mock-up demonstrates the user interface of the app.
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+![Choice](./assets/imgs/daily-planner-demo.png)
 
-This Challenge is graded based on the following criteria:
+<p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
-### Technical Acceptance Criteria: 40%
+This mock-up demonstrates the local storage functionality, which enables users to save tasks and ensures the saved tasks persist after refreshing the page. 
 
-* Satisfies all of the above acceptance criteria plus the following:
+![Save](./assets/imgs/daily-planner-localstorage-demo.png)
 
-  * Uses a date utility library to work with date and time
+<p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
-### Deployment: 32%
+---
 
-* Application deployed at live URL
+## Application link
 
-* Application loads with no errors
+[Check out the Daily Planner App here!](INSERT LINK)
 
-* Application GitHub URL submitted
+<p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
-* GitHub repo contains application code
+---
 
-### Application Quality: 15%
+## License
 
-* Application user experience is intuitive and easy to navigate
+Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-* Application user interface style is clean and polished
+<p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
-* Application resembles the mock-up functionality provided in the Challenge instructions
+---
 
-### Repository Quality: 13%
+## Acknowledgments 
 
-* Repository has a unique name
+This list includes resources used for the project. 
 
-* Repository follows best practices for file structure and naming conventions
+- [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
+- [Day.js Library](https://day.js.org/)
+- [Day.js Library Advanced Format Plug-in](https://day.js.org/docs/en/plugin/advanced-format)
+- [jQuery Library](https://jquery.com/)
 
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+<p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
 
 https://stackoverflow.com/questions/2170923/whats-the-easiest-way-to-call-a-function-every-5-seconds-in-jquery
@@ -104,4 +74,3 @@ https://stackoverflow.com/questions/2170923/whats-the-easiest-way-to-call-a-func
 https://stackoverflow.com/questions/17886578/refresh-part-of-page-div
 
 https://api.jquery.com/load/
-

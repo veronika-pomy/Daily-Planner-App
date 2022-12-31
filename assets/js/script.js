@@ -6,10 +6,10 @@ $(function () {
   var saveButtonEls = $(".saveBtn"); // grab all buttons
   var textEls = $(".description"); // grab all textareas
 
-  // A listener for click events on the save button.
-  // Use the id in the containing time-block as a key to save the user input in
+  // A listener for click events on the save buttons.
+  // Uses the id in the containing time-block as a key to save the user input in
   // local storage. 
-  saveButtonEls.on("click", function (){
+  saveButtonEls.on("click", function ( ) {
     var timeBlockIdEL = this.parentNode.id;
     var getTextInput = $(`#${timeBlockIdEL}`);
     var userInput = getTextInput.children(".description").val();
@@ -29,9 +29,9 @@ $(function () {
     $(`#${textInputIdArr[i]}`).children(".description").val(input);
   };
 
-  // Apply the past, present, or future class to each time block
-  // Get current hour in 24-hr format using dayjs
-    var currTime = Number(dayjs().format('H'));
+  // Apply the past, present, future classes to each time block
+  // Get current hour using dayjs and advanced format plug-in
+    var currTime = Number(dayjs().format('k'));
 
     for (var j = 0; j < textEls.length; j++) {
       // Grab time from each time block id el
@@ -42,10 +42,14 @@ $(function () {
         $(`#${textInputIdArr[j]}`).addClass("future");
       } else {
         $(`#${textInputIdArr[j]}`).addClass("present");
-      }
+      };
     };
+
+    // var refresh = $("#reload");
+    // console.log(refresh);
+
 
   // Display current date in the header of the page
   var today = dayjs();
-  $("#currentDay").text(today.format('dddd, MMMM D'));
+  $("#currentDay").text(today.format('dddd, MMMM Do'));
 });
