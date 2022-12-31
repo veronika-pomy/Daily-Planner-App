@@ -33,6 +33,8 @@ This mock-up demonstrates the user interface of the app.
 
 <p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
+---
+
 This mock-up demonstrates the local storage functionality, which enables users to save tasks and ensures the saved tasks persist after refreshing the page. 
 
 ![Save](./assets/imgs/daily-planner-localstorage-demo.png)
@@ -67,10 +69,3 @@ This list includes resources used for the project.
 - [jQuery Library](https://jquery.com/)
 
 <p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
-
-
-https://stackoverflow.com/questions/2170923/whats-the-easiest-way-to-call-a-function-every-5-seconds-in-jquery
-
-https://stackoverflow.com/questions/17886578/refresh-part-of-page-div
-
-https://api.jquery.com/load/
