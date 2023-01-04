@@ -45,7 +45,7 @@ This mock-up demonstrates the local storage functionality, which enables users t
 
 ## Application link
 
-[Check out the Daily Planner App here!](INSERT LINK)
+[Check out the Daily Planner App here!](https://veronika-pomy.github.io/Daily-Planner-App/)
 
 <p align="right">(<a href="#daily-planner-app">back to top</a>)</p>
 
