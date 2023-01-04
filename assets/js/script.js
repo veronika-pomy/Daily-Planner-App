@@ -45,10 +45,6 @@ $(function () {
       };
     };
 
-    // var refresh = $("#reload");
-    // console.log(refresh);
-
-
   // Display current date in the header of the page
   var today = dayjs();
   $("#currentDay").text(today.format('dddd, MMMM Do'));
